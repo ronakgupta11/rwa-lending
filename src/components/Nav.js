@@ -5,7 +5,7 @@ import { Button, Navbar } from "flowbite-react";
 
 export default function Nav() {
   return (
-    <Navbar fluid rounded className="bg-black text-white rounded-none">
+    <Navbar fluid rounded className="bg-black text-white rounded-none p-4">
       <Navbar.Brand href="/">
       
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">RWA</span>

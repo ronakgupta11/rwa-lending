@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeCard from '@/components/Card'
+import Row1 from '../components/Row1.js'
 function Portfolio() {
   return (
     <div className='bg-black min-h-screen py-10 space-y-4 flex flex-col'>
@@ -22,6 +23,9 @@ function Portfolio() {
             {/* <LoansDisplayForSupply /> */}
           </HomeCard>
         </div>
+      </div>
+      <div className="p-16">
+      <Row1/>
       </div>
     </div>
   )
