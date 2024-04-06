@@ -14,7 +14,7 @@ function SupplyModal() {
       }
   return (
     <>
-    <button onClick={() => setOpenModal(true)} className="bg-purple-600 py-4 px-6 rounded-lg text-white hover:bg-purple-700">Supply</button>
+    <button onClick={() => setOpenModal(true)} className="bg-purple-600 py-4 px-6 rounded-lg text-white hover:bg-purple-700 ">Supply</button>
     <Modal className="bg-gray-900" show={openModal} size="md" onClose={onCloseModal} popup>
       <Modal.Header className="bg-gray-800"/>
       <Modal.Body className="bg-gray-800 text-white">

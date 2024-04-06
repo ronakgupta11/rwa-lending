@@ -11,15 +11,17 @@ export default function Nav() {
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">RWA</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Get started</Button>
+        <Button className="bg-purple-600 p-2">Get started</Button>
         <Navbar.Toggle />
       </div>
-      <Navbar.Collapse>
-        <Navbar.Link  className=" text-white"href="" >
+      <Navbar.Collapse className="flex flex-row space-x-10">
+        <Navbar.Link  className=" text-white text-lg"href="" >
           Home
         </Navbar.Link>
-        <Navbar.Link className=" text-white" href="/portfolio">Portfolio</Navbar.Link>
-        <Navbar.Link className=" text-white" href="/market">Market</Navbar.Link>
+        <Navbar.Link className=" text-white text-lg" href="/portfolio">Portfolio</Navbar.Link>
+        <Navbar.Link className=" text-white text-lg" href="/market">Market</Navbar.Link>
+        <Navbar.Link className=" text-white text-lg" href="/market">Liquidity</Navbar.Link>
+        <Navbar.Link className=" text-white text-lg" href="/market">Swap</Navbar.Link>
 
       </Navbar.Collapse>
     </Navbar>
