@@ -5,7 +5,7 @@ import { Button, Checkbox, Label, Modal, TextInput } from "flowbite-react";
 import { useState } from "react";
 import React from 'react'
 
-function BorrowModal() {
+function BorrowModal({img,name}) {
     const [openModal, setOpenModal] = useState(false);
     const [email, setEmail] = useState('');
     function onCloseModal() {
@@ -25,8 +25,8 @@ function BorrowModal() {
 <div>You Borrow</div>
             <div className="flex items-center justify-around w-full border border-gray-600 h-32 text-white rounded-md">
             <div className="flex space-x-2 w-full items-center ml-10">
-                    <img className ="w-12 rounded-lg"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIBtwQPvSqh2sIyMPElH0e0q2UuBo0GqEx3ssq2ZNjmhn1xwuuhRCI3E6_Z2BV2j79ffU&usqp=CAU"></img>
-                    <p className="">USDC</p>
+                    <img className ="w-12 rounded-lg"src={img}></img>
+                    <p className="">{name}</p>
                 </div>
 
             <input

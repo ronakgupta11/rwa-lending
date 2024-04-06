@@ -23,12 +23,12 @@ function Row1({name,img}) {
         <div className='flex flex-row items-center justify-center space-x-2'>
         <FaRegStar className="text-yellow-500" />
         <div className='font-bold border-b text-green-500'>22.7%</div>
-       <SupplyModal/>
+       <SupplyModal img={img} name={name}/>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2">
         <FaRegStar className="text-yellow-500" />
         <div className='font-bold border-b text-yellow-500'>22.7%</div>
-       <BorrowModal/>
+       <BorrowModal img={img} name={name}/>
         </div>
     </div>
   )

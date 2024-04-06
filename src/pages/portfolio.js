@@ -24,9 +24,7 @@ function Portfolio() {
           </HomeCard>
         </div>
       </div>
-      <div className="p-16">
-      <Row1/>
-      </div>
+
     </div>
   )
 }
