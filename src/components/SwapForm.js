@@ -11,11 +11,10 @@ function SwapForm() {
             <div className='flex flex-col justify-between items-center'>
             <form class="max-w-sm mx-auto">
   <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-    <option selected>Choose a country</option>
-    <option value="US">United States</option>
-    <option value="CA">Canada</option>
-    <option value="FR">France</option>
-    <option value="DE">Germany</option>
+    
+    <option selected value="US">USDC</option>
+    <option value="CA">CAD</option>
+    <option value="FR">INR</option>
   </select>
 </form>
             <div className='flex flex-row items-center justify-center space-x-1 '>
@@ -30,13 +29,22 @@ function SwapForm() {
                 <div className='font-semibold text-xl'>$ 3343.84</div>
             </div>
             <div className='flex flex-col justify-between items-center'>
-            <div>eth</div>
+            <form class="max-w-sm mx-auto">
+  <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+    
+    <option selected value="US">GOLD</option>
+    <option value="CA">SILVER</option>
+    <option value="FR">DIAMOND</option>
+    <option value="DE">GUCCI</option>
+  </select>
+</form>
             <div className='flex flex-row items-center justify-center space-x-1 '>
                 <MdSnippetFolder />
                 <div className='font-semibold text-xl'>$ 0.00</div>
             </div>
             </div>
         </div>
+        <button className='bg-purple-700 text-white py-4 px-10 w-96 rounded-xl'>Swap</button>
         
     </div>
   )

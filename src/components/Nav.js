@@ -15,13 +15,13 @@ export default function Nav() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse className="flex flex-row space-x-10">
-        <Navbar.Link  className=" text-white text-lg"href="" >
+        <Navbar.Link  className=" text-white text-lg"href="/" >
           Home
         </Navbar.Link>
         <Navbar.Link className=" text-white text-lg" href="/portfolio">Portfolio</Navbar.Link>
         <Navbar.Link className=" text-white text-lg" href="/market">Market</Navbar.Link>
-        <Navbar.Link className=" text-white text-lg" href="/market">Liquidity</Navbar.Link>
-        <Navbar.Link className=" text-white text-lg" href="/market">Swap</Navbar.Link>
+        <Navbar.Link className=" text-white text-lg" href="/liquidity">Liquidity</Navbar.Link>
+        <Navbar.Link className=" text-white text-lg" href="/swap">Swap</Navbar.Link>
 
       </Navbar.Collapse>
     </Navbar>
