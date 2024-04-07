@@ -19,7 +19,7 @@ function SupplyModal({img,name}) {
       <Modal.Header className="bg-gray-800"/>
       <Modal.Body className="bg-gray-800 text-white">
         <div className="space-y-6">
-          <h3 className="text-xl font-medium">Supply</h3>
+          <h3 className="text-xl font-medium">Lend</h3>
           <div>
 
             <div className="flex items-center justify-around w-full border border-gray-600 h-32 text-white rounded-md">
