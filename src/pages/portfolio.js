@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeCard from '@/components/Card'
 import SwapForm from '../components/SwapForm'
+import Graph from '@/components/Graph'
 function Portfolio() {
   return (
     <div className='bg-black min-h-screen py-10 space-y-4 flex flex-col'>
@@ -26,7 +27,7 @@ function Portfolio() {
           </HomeCard>
         </div>
       </div>
-
+        <Graph />
 
       
 
